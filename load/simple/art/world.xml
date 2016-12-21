@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<world>
+	<library>/art/shaderlib.xml</library>
+	<library>/art/soundlib.xml</library>
+	<library>/art/material.xml</library>
+	<library>/art/factorylib.xml</library>
+	<sector name='Scene'>
+		<cullerp plugin='crystalspace.culling.frustvis'/>
+		<!-- 给场景添加灯光 -->
+		<light name='Lamp.001'>
+			<center y='3.91767' x='4.52981' z='5.71327'/>
+			<color blue='1.0' green='0.370982319117' red='0.620215713978'/>
+			<radius brightness='1.0'>20.0</radius>
+		</light>
+		<light name='Lamp'>
+			<center y='4.0401' x='-4.97871' z='-5.63165'/>
+			<color blue='0.311641007662' green='0.323509275913' red='0.810107886791'/>
+			<radius brightness='1.0'>20.0</radius>
+		</light>
+		<!-- 创建出一个地面 -->
+		<meshobj name='Plane'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genPlane</factory>
+				<material>no</material>
+				<mixmode>
+					<alpha>0.498039</alpha>
+				</mixmode>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='0'/>
+			</move>
+		</meshobj>
+		<!-- 摄像机跟随这个盒子 -->
+		<meshobj name='Player'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genPlayer</factory>
+				<material>no</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='0'/>
+			</move>
+		</meshobj>
+		<!-- 模拟一个monster -->
+		<meshobj name='monster'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genMonster</factory>
+				<material>no</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='-5'/>
+			</move>
+		</meshobj>
+		<!-- 其他盒子 -->
+		<meshobj name='cube1'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genCube1</factory>
+				<material>c1</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='-5'/>
+			</move>
+		</meshobj>
+		<meshobj name='cube2'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genCube2</factory>
+				<material>c2</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='-5'/>
+			</move>
+		</meshobj>
+		<meshobj name='cube3'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genCube3</factory>
+				<material>c3</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='-5'/>
+			</move>
+		</meshobj>
+		<meshobj name='cube4'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genCube4</factory>
+				<material>c1</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='-5'/>
+			</move>
+		</meshobj>
+		<meshobj name='cube5'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genCube5</factory>
+				<material>c2</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='-5'/>
+			</move>
+		</meshobj>
+		<meshobj name='cube6'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genCube6</factory>
+				<material>c3</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='0' x='0' z='-5'/>
+			</move>
+		</meshobj>
+	</sector>
+	<library>/art/sequencelib.xml</library>
+</world>

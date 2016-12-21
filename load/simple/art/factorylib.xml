@@ -1,0 +1,11 @@
+<library>
+	<library>/art/factories/genPlayer</library>
+	<library>/art/factories/genPlane</library>
+	<library>/art/factories/genMonster</library>
+	<library>/art/factories/genCube1</library>
+	<library>/art/factories/genCube2</library>
+	<library>/art/factories/genCube3</library>
+	<library>/art/factories/genCube4</library>
+	<library>/art/factories/genCube5</library>
+	<library>/art/factories/genCube6</library>
+</library>

@@ -1,0 +1,28 @@
+<library>
+  <textures>
+    <texture name="t_614.jpg">
+      <file>/art/textures/t_614.jpg</file>
+    </texture>
+    <texture name="t_613.png">
+      <file>/art/textures/t_613.png</file>
+      <alpha>
+        <binary />
+      </alpha>
+    </texture>
+    <texture name="t_5.jpg">
+      <file>/art/textures/t_5.jpg</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name="m2_ms3Sub0">
+      <texture>t_614.jpg</texture>
+    </material>
+    <material name="m2_ms4Sub1">
+      <texture>t_613.png</texture>
+      <shader type="ambient">ambient</shader>
+    </material>
+    <material name="m5">
+      <texture>t_5.jpg</texture>
+    </material>
+  </materials>
+</library>

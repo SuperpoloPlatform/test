@@ -1,0 +1,24 @@
+<library>
+	<textures>
+		<texture name='c1.jpg'>
+			<file>/art/textures/c1.jpg</file>
+		</texture>
+		<texture name='c2.jpg'>
+			<file>/art/textures/c2.jpg</file>
+		</texture>
+		<texture name='c3.jpg'>
+			<file>/art/textures/c3.jpg</file>
+		</texture>
+	</textures>
+	<materials>
+		<material name="c1">
+			<texture>c1.jpg</texture>
+		</material>
+		<material name="c2">
+			<texture>c2.jpg</texture>
+		</material>
+		<material name="c3">
+			<texture>c3.jpg</texture>
+		</material>
+	</materials>
+</library>

@@ -1,0 +1,1 @@
+alert = function() {};AssertTrue(false, "only test");

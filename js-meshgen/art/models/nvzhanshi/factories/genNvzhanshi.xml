@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library>
+	<!-- nvzhanshi的模型工厂 -->
+	<meshfact name="nvzhanshi">
+		<plugin>cal3dfact</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			<animation file="/art/models/nvzhanshi/textures/attack.caf" name="attack" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/nvzhanshi/textures/back.caf" name="back" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/nvzhanshi/textures/die.caf" name="die" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/nvzhanshi/textures/run.caf" name="run" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/nvzhanshi/textures/stand1.caf" name="stand1" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/nvzhanshi/textures/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/nvzhanshi/textures/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<scale value="0.005" />
+			<skeleton file="/art/models/nvzhanshi/textures/bone.csf" />
+			<mesh file="/art/models/nvzhanshi/textures/wuqi1.cmf" name="chui_gaoji" material="nvzhanshi_chui_gaoji.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/hujian1.cmf" name="hujian_chuji" material="nvzhanshi_hujian_chuji.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/hujian2.cmf" name="hujian_gaoji" material="nvzhanshi_hujian_gaoji.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/0000009.cmf" name="tou" material="nvzhanshi_tou.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/toufa1.cmf" name="toufa" material="nvzhanshi_toufa.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/0000009.cmf" name="zhanshi_chujishenti" material="nvzhanshi_zhanshi_chujishenti.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/0000009.cmf" name="zhanshi_chujishou" material="nvzhanshi_zhanshi_chujishou.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/hutui1.cmf" name="zhanshi_chujitui" material="nvzhanshi_zhanshi_chujitui.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/xie1.cmf" name="zhanshi_chujixie" material="nvzhanshi_zhanshi_chujixie.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/yaodai1.cmf" name="zhanshi_chujiyaodai" material="nvzhanshi_zhanshi_chujiyaodai.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/yifu1.cmf" name="zhanshi_gaojishentti" material="nvzhanshi_zhanshi_gaojishentti.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/0000009.cmf" name="zhanshi_gaojishou" material="nvzhanshi_zhanshi_gaojishou.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/hutui2.cmf" name="zhanshi_gaojitui" material="nvzhanshi_zhanshi_gaojitui.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/xie2.cmf" name="zhanshi_gaojixie" material="nvzhanshi_zhanshi_gaojixie.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/yaodai2.cmf" name="zhanshi_gaojiyaodai" material="nvzhanshi_zhanshi_gaojiyaodai.jpg" />
+			<mesh file="/art/models/nvzhanshi/textures/yifu2.cmf" name="zhanshi_shenti" material="nvzhanshi_zhanshi_shenti.jpg" />
+			
+			<socket name="socketR" tri="90" mesh="0" submesh="0" />
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+		</params>
+	</meshfact>
+</library>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library>
+	<plugins>
+		<plugin name='null'>crystalspace.mesh.loader.null</plugin>
+		<plugin name='genmesh'>crystalspace.mesh.loader.genmesh</plugin>
+		<plugin name='genmeshfact'>crystalspace.mesh.loader.factory.genmesh</plugin>
+		<plugin name="cal3d">crystalspace.mesh.loader.sprite.cal3d</plugin>
+		<plugin name="cal3dfact">crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+	</plugins>
+	<!-- 这里添加shader
+	<shaders>
+		<shader>
+			<file>/shader/character/character_bump2.xml</file>
+		</shader>
+		<shader>
+			<file>/shader/character/character2.xml</file>
+		</shader>
+	</shaders>
+	-->
+	<!-- nvzhanshi的material -->
+	<materials>
+		<material name="nvzhanshi_chui_gaoji.jpg">
+			<texture>/art/models/nvzhanshi/textures/chui_gaoji.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_hujian_chuji.jpg">
+			<texture>/art/models/nvzhanshi/textures/hujian_chuji.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_hujian_gaoji.jpg">
+			<texture>/art/models/nvzhanshi/textures/hujian_gaoji.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_tou.jpg">
+			<texture>/art/models/nvzhanshi/textures/tou.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_toufa.jpg">
+			<texture>/art/models/nvzhanshi/textures/toufa.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_chujishenti.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_chujishenti.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_chujishou.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_chujishou.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_chujitui.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_chujitui.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_chujixie.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_chujixie.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_chujiyaodai.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_chujiyaodai.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_gaojishentti.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_gaojishentti.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_gaojishou.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_gaojishou.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_gaojitui.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_gaojitui.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_gaojixie.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_gaojixie.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_gaojiyaodai.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_gaojiyaodai.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="nvzhanshi_zhanshi_shenti.jpg">
+			<texture>/art/models/nvzhanshi/textures/zhanshi_shenti.jpg</texture>
+			<shader type="diffuse">light</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+	</materials>
+	<library>factories/genNvzhanshi.xml</library>
+</library>

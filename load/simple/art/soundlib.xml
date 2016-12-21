@@ -1,0 +1,16 @@
+<library>
+	<sounds>
+		<sound name="boom.wav" >
+			<file>/art/music/boom.wav</file>
+		</sound>
+		<sound name="loopbzzt.wav" >
+			<file>/art/music/loopbzzt.wav</file>
+		</sound>
+		<sound name="tada.wav" >
+			<file>/art/music/tada.wav</file>
+		</sound>
+		<sound name="whoosh.wav" >
+			<file>/art/music/whoosh.wav</file>
+		</sound>
+	</sounds>
+</library>

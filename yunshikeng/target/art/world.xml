@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+  <library>/art/shaderlib.xml</library>
+  <library>/art/factorylib.xml</library>
+  <library>/art/materials.xml</library>
+  <sector name="Scene">
+    <ambient blue="0.3" green="0.3" red="0.3" />
+    <cullerp plugin="crystalspace.culling.frustvis" />
+        <light name="sun">
+            <center x="-50000" y="86030" z="0" />
+            <color red="0.5" green="0.5" blue="0.5" />
+            <radius>1000000</radius>
+        </light>
+		<meshobj name='Player'>
+			<plugin>crystalspace.mesh.loader.genmesh</plugin>
+			<params>
+				<factory>genPlayer</factory>
+				<material>no</material>
+			</params>
+			<zuse/>
+			<move>
+				<v y='500' x='1000' z='1000'/>
+			</move>
+		</meshobj>
+    <meshobj name="Line01#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>Line01</factory>
+      </params>
+      <move>
+        <v x="0" y="0" z="0" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+  </sector>
+</world>

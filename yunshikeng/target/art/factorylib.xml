@@ -1,0 +1,4 @@
+<library>
+  <library>/art/factories/genPlayer</library>
+  <library>/art/factories/Line01.xml</library>
+</library>

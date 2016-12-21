@@ -1,0 +1,19 @@
+<root total_tris="1053" total_verts="1675">
+  <meshfactory name="Line01" fromfile="D:\p\yunshikeng\src\art\scene\scene.x" numfaces="1053" numvertices="1675" numvsubmesh="3">
+    <submesh name="" meshindex="0" numfaces="75" numvertices="79">
+      <material name="m0_m7Sub1">
+        <diffusetexture>/art/textures/004.jpg</diffusetexture>
+      </material>
+    </submesh>
+    <submesh name="" meshindex="1" numfaces="309" numvertices="319">
+      <material name="m0_ms3Sub2">
+        <diffusetexture>/art/textures/0010.jpg</diffusetexture>
+      </material>
+    </submesh>
+    <submesh name="" meshindex="2" numfaces="669" numvertices="1277">
+      <material name="m0_m6Sub0">
+        <diffusetexture>/art/textures/005.jpg</diffusetexture>
+      </material>
+    </submesh>
+  </meshfactory>
+</root>

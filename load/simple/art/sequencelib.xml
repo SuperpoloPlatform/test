@@ -1,0 +1,48 @@
+<library>
+	<sequences>
+		<sequence name="manmanqiuxue">
+			<move mesh="Player" duration="80" x="0.0018000000000029104" y="-0.0015000000000000568" z="-0.005899999999996908" />
+			<rotate mesh="Player" duration="80">
+			  <rotx>0</rotx>
+			  <roty>0</roty>
+			  <rotz>0</rotz>
+			</rotate>
+			<delay time="80" />
+			<move mesh="Player" duration="80" x="0.0053999999999803094" y="-0.004300000000000637" z="-0.017499999999984084" />
+			<rotate mesh="Player" duration="80">
+			  <rotx>0</rotx>
+			  <roty>0</roty>
+			  <rotz>0</rotz>
+			</rotate>
+			<delay time="80" />
+			<move mesh="Player" duration="80" x="0.008900000000011232" y="-0.007099999999994111" z="-0.029300000000034743" />
+			<rotate mesh="Player" duration="80">
+			  <rotx>0.0001</rotx>
+			  <roty>0.00009999999999998899</roty>
+			  <rotz>0</rotz>
+			</rotate>
+			<delay time="80" />
+			<move mesh="Player" duration="80" x="0.012499999999988631" y="-0.009900000000001796" z="-0.041099999999971715" />
+			<rotate mesh="Player" duration="80">
+			  <rotx>0.0001</rotx>
+			  <roty>0</roty>
+			  <rotz>0</rotz>
+			</rotate>
+			<delay time="80" />
+			<move mesh="Player" duration="80" x="0.015900000000016234" y="-0.012700000000002376" z="-0.05299999999999727" />
+			<rotate mesh="Player" duration="80">
+			  <rotx>0.00009999999999999996</rotx>
+			  <roty>0</roty>
+			  <rotz>-0.0001</rotz>
+			</rotate>
+			<delay time="80" />
+			<move mesh="Player" duration="80" x="0.019399999999990314" y="-0.015399999999999636" z="-0.06470000000001619" />
+			<rotate mesh="Player" duration="80">
+			  <rotx>0.00010000000000000005</rotx>
+			  <roty>0.00009999999999998899</roty>
+			  <rotz>0</rotz>
+			</rotate>
+			<delay time="80" />
+		</sequence>
+	</sequences>
+</library>

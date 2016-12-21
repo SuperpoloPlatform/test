@@ -1,0 +1,46 @@
+#VRML V2.0 utf8
+
+DEF	bone Bone {
+	skeleton "bone.csf"
+	animation ["attack.caf","walk.caf","back.caf","stand.caf","run.caf"]
+	mesh ["yifu2.cmf","lian2.cmf","toufa2.cmf","hutui2.cmf","xie2.cmf","wuqi2.cmf","yaodai2.cmf","huwan2.cmf","hujian2.cmf","hujian1.cmf","huwan1.cmf","yaodai1.cmf","xie1.cmf","yifu1.cmf","hutui1.cmf","lian1.cmf","toufa1.cmf"]
+	material ["yifu2.crf","lian2.crf","toufa2.crf","hutui2.crf","xie2.crf","wuqi2.crf","yaodai2.crf","huwan2.crf","hujian2.crf","hujian1.crf","huwan1.crf","yaodai1.crf","xie1.crf","yifu1.crf","hutui1.crf","lian1.crf","toufa1.crf"]
+	meshSet	[
+		"default",
+#		"yifu2.cmf","yifu2.crf"
+#		"lian2.cmf","lian2.crf"
+#		"toufa2.cmf","toufa2.crf"
+#		"hutui2.cmf","hutui2.crf"
+		"xie2.cmf","xie2.crf"
+#		"wuqi2.cmf","wuqi2.crf"
+		"wuqi1.cmf","wuqi1.crf"
+#		"yaodai2.cmf","yaodai2.crf"
+#		"huwan2.cmf","huwan2.crf"
+		"hujian2.cmf","hujian2.crf"
+#		"hujian1.cmf","hujian1.crf"
+		"huwan1.cmf","huwan1.crf"
+#		"yaodai1.cmf","yaodai1.crf"
+		"yaodai2.cmf","yaodai2.crf"
+#		"xie1.cmf","xie1.crf"
+#		"yifu1.cmf","yifu1.crf"
+		"yifu2.cmf","yifu2.crf"
+#		"hutui1.cmf","hutui1.crf"
+		"hutui2.cmf","hutui2.crf"
+#		"lian1.cmf","lian1.crf"
+		"lian2.cmf","lian2.crf"		
+		"toufa1.cmf","toufa1.crf"
+	]
+}
+
+DEF	tf_bone Transform {
+	children [
+		Rotation { rotation 0 1 0 1.57 }
+		DEF	jolidan	BoneInstance {
+			classname "bone"
+			meshSet	"default"
+			animCycle ["stand.caf","0.1","0.5"]
+			refreshTime	0.01
+			lod	 1
+		}	
+	]
+}													  

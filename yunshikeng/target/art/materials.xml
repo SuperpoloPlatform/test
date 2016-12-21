@@ -1,0 +1,51 @@
+<library>
+  <textures>
+    <texture name="004.jpg">
+      <file>/art/textures/004.jpg</file>
+    </texture>
+    <texture name="004_n.jpg">
+      <file>/art/textures/004_n.jpg</file>
+	  <class>normalmap</class>
+    </texture>
+    <texture name="004_h.jpg">
+      <file>/art/textures/004_h.jpg</file>
+    </texture>
+    <texture name="0010.jpg">
+      <file>/art/textures/0010.jpg</file>
+    </texture>
+    <texture name="0010_n.jpg">
+      <file>/art/textures/0010_n.jpg</file>
+	  <class>normalmap</class>
+    </texture>
+    <texture name="0010_h.jpg">
+      <file>/art/textures/0010_h.jpg</file>
+    </texture>
+    <texture name="005.jpg">
+      <file>/art/textures/005.jpg</file>
+    </texture>
+    <texture name="005_n.jpg">
+      <file>/art/textures/005_n.jpg</file>
+	  <class>normalmap</class>
+    </texture>
+    <texture name="005_h.jpg">
+      <file>/art/textures/005_h.jpg</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name="m0_m7Sub1">
+      <texture>004.jpg</texture>
+      <shadervar name="tex normal" type="texture">004_n.jpg</shadervar>
+      <shadervar name="tex height" type="texture">004_h.jpg</shadervar>
+    </material>
+    <material name="m0_ms3Sub2">
+      <texture>0010.jpg</texture>
+      <shadervar name="tex normal" type="texture">0010_n.jpg</shadervar>
+      <shadervar name="tex height" type="texture">0010_h.jpg</shadervar>
+    </material>
+    <material name="m0_m6Sub0">
+      <texture>005.jpg</texture>
+      <shadervar name="tex normal" type="texture">005_n.jpg</shadervar>
+      <shadervar name="tex height" type="texture">005_h.jpg</shadervar>
+    </material>
+  </materials>
+</library>

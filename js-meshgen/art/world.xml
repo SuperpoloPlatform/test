@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+  <plugins>
+    <plugin name='genmesh'>crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name='genmeshfact'>crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <library>/art/shaderlib.xml</library>
+  <library>/art/factorylib.xml</library>
+  <library>/art/materials.xml</library>
+  <library>/art/factories/genPlayer</library>
+  <library>art/models/nvzhanshi/nvzhanshi.xml</library>
+  <start name="Camera">
+    <sector>Scene</sector>
+    <position x="8.6592" y="5.1716" z="-4.595" />
+    <up x="-0.3307" y="0.8953" z="0.2984" />
+    <forward x="-0.6549" y="-0.4452" z="0.6107" />
+  </start>
+  <sector name="Scene">
+    <ambient blue="0.2" green="0.2" red="0.2" />
+    <cullerp plugin="crystalspace.culling.frustvis" />
+	
+	<light name="sun">
+	<center x="0" y="86030" z="0"/>
+	<color blue="0.3" green="0.3" red="0.3"/>
+	<radius>1000000</radius>
+	</light>
+	<ambient blue="0.3" green="0.3" red="0.3">
+	</ambient>
+	
+	<meshobj name='Cube'>
+		<plugin>genmesh</plugin>
+		<params>
+			<factory>genPlayer</factory>
+			<material>no</material>
+		</params>
+		<zuse/>
+		<move>
+			<v y='3' x='0' z='0'/>
+		</move>
+	</meshobj>
+	
+	<meshobj name="nvzhanshi">
+		<priority>object</priority>
+		<plugin>cal3d</plugin>
+		<params>
+		<factory>nvzhanshi</factory>
+		</params>
+		<zuse />
+		<move>
+		 <v y="10" x="3" z="3" />
+		</move>
+	</meshobj>
+	
+	<meshobj name='CubeiCamera'>
+		<plugin>genmesh</plugin>
+		<params>
+			<factory>genPlayer</factory>
+			<material>no</material>
+		</params>
+		<zuse/>
+		<move>
+			<v y='3' x='0' z='0'/>
+		</move>
+	</meshobj>
+
+    <meshobj name="Plane01#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>Plane01</factory>
+      </params>
+      <move>
+        <v x="-30.16118621826172" y="1.339285969734192" z="-26.577999114990234" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+  </sector>
+</world>
